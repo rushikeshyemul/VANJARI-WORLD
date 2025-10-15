@@ -1,6 +1,6 @@
 import { WordPressPost, WordPressPage, WordPressMedia } from '../types/wordpress';
 
-const WP_BASE_URL = import.meta.env.VITE_WP_BASE_URL || 'https://www.vanjariworld.com';
+const WP_BASE_URL = import.meta.env.VITE_WP_BASE_URL || 'https://www.Dhangarworld.com';
 const WP_API_URL = `${WP_BASE_URL}/wp-json/wp/v2`;
 
 export class WordPressService {

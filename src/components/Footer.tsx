@@ -79,7 +79,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded font-semibold transition-colors"
+                  className="w-full bg-yellow-500 hover:bg-orange-600 text-white py-3 rounded font-semibold transition-colors"
                 >
                   Subscribe
                 </button>
@@ -93,13 +93,13 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center space-x-4">
-              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
+              <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center">
                 <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
                 </svg>
               </div>
               <div>
-                <h4 className="text-2xl font-bold">VANJARI WORLD</h4>
+                <h4 className="text-2xl font-bold">Dhangar WORLD</h4>
                 <div className="flex items-center text-sm text-gray-400 mt-1">
                   <MapPin size={14} className="mr-1" />
                   <span>Ek Diwas Samajasathi Foundation</span>
@@ -109,7 +109,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center text-sm text-gray-400 mt-1">
                   <Mail size={14} className="mr-1 ml-0" />
-                  <span>contact@vanjariworld.com</span>
+                  <span>contact@Dhangarworld.com</span>
                 </div>
               </div>
             </div>
@@ -117,25 +117,25 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="w-12 h-12 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors"
+                className="w-12 h-12 bg-gray-800 hover:bg-yellow-500 rounded-full flex items-center justify-center transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors"
+                className="w-12 h-12 bg-gray-800 hover:bg-yellow-500 rounded-full flex items-center justify-center transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors"
+                className="w-12 h-12 bg-gray-800 hover:bg-yellow-500 rounded-full flex items-center justify-center transition-colors"
               >
                 <Linkedin size={20} />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors"
+                className="w-12 h-12 bg-gray-800 hover:bg-yellow-500 rounded-full flex items-center justify-center transition-colors"
               >
                 <Youtube size={20} />
               </a>
@@ -144,7 +144,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-orange-500 py-4">
+      <div className="bg-yellow-500 py-4">
         <div className="container mx-auto px-4 text-center text-sm">
           <p>COPYRIGHT © 2025 - Designed with ❤️ by Website Developer Pune</p>
         </div>

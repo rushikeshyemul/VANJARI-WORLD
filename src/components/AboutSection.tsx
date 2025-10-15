@@ -16,7 +16,7 @@ export default function AboutSection({ title, content }: AboutSectionProps) {
               className="text-gray-600 leading-relaxed mb-6 space-y-4"
               dangerouslySetInnerHTML={{ __html: content }}
             />
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-md transition-colors font-semibold">
+            <button className="bg-yellow-500 hover:bg-orange-600 text-white px-8 py-3 rounded-md transition-colors font-semibold">
               Read More
             </button>
           </div>
@@ -42,12 +42,12 @@ export default function AboutSection({ title, content }: AboutSectionProps) {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-48 h-48 bg-white rounded-full shadow-2xl flex items-center justify-center border-8 border-orange-100">
                 <div className="text-center">
-                  <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <div className="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-2">
                     <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
                     </svg>
                   </div>
-                  <p className="text-xs font-bold text-gray-800">VANJARI</p>
+                  <p className="text-xs font-bold text-gray-800">Dhangar</p>
                   <p className="text-xs font-bold text-gray-800">WORLD</p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function AboutSection({ title, content }: AboutSectionProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-lg text-center hover:shadow-xl transition-shadow">
-            <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="text-white" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Community Network</h3>

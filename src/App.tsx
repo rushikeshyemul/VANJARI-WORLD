@@ -29,9 +29,9 @@ function App() {
   const [sliderImages, setSliderImages] = useState<SliderImage[]>([]);
   const [leaders, setLeaders] = useState<Leader[]>([]);
   const [aboutContent, setAboutContent] = useState({
-    title: "Vanjari World",
+    title: "Dhangar World",
     content:
-      "<p>Vanjari Community web VanjariWorld.com is owned and operated by 'Ek Diwas Samajasathi (EDS) Foundation'. Ek Diwas Samajasathi Foundation is founded by group of Visionary Officers and Professionals willing to contribute by giving & sharing Time, Talent and or Treasure for the Social Welfare and Development of the Community.</p><p>Our Vision is to ensure best network amongst all strata of community and to achieve Socio-Economic Growth of the underprivileged community members by uniting Officers, Professionals, Social Workers, Students, Women etc.</p>",
+      "<p>Dhangar Community web DhangarWorld.com is owned and operated by 'Ek Diwas Samajasathi (EDS) Foundation'. Ek Diwas Samajasathi Foundation is founded by group of Visionary Officers and Professionals willing to contribute by giving & sharing Time, Talent and or Treasure for the Social Welfare and Development of the Community.</p><p>Our Vision is to ensure best network amongst all strata of community and to achieve Socio-Economic Growth of the underprivileged community members by uniting Officers, Professionals, Social Workers, Students, Women etc.</p>",
   });
   const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
 
@@ -78,9 +78,9 @@ function App() {
             image:
               "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300",
             description:
-              "Even after 70 years of Independence, the Vanjari community remains...",
+              "Even after 70 years of Independence, the Dhangar community remains...",
             excerpt:
-              "Even after 70 years of Independence, the Vanjari community remains...",
+              "Even after 70 years of Independence, the Dhangar community remains...",
           },
           {
             id: 2,
@@ -205,7 +205,7 @@ function App() {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full shadow-lg transition-all z-40"
+          className="fixed bottom-8 right-8 bg-yellow-500 hover:bg-orange-600 text-white p-3 rounded-full shadow-lg transition-all z-40"
         >
           <ArrowUp size={24} />
         </button>

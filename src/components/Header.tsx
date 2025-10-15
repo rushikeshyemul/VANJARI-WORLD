@@ -63,17 +63,17 @@ const navItems: NavItem[] = [
       { label: "Add New Job", href: "/jobs/add" },
     ],
   },
-  {
-    label: "Matrimonial",
-    href: "/matrimonial",
-    hasDropdown: true,
-    submenu: [
-      { label: "Register", href: "/matrimonial/register" },
-      { label: "Bride", href: "/matrimonial/bride" },
-      { label: "Groom", href: "/matrimonial/groom" },
-      { label: "Add New Profile", href: "/matrimonial/add" },
-    ],
-  },
+  // {
+  //   label: "Matrimonial",
+  //   href: "/matrimonial",
+  //   hasDropdown: true,
+  //   submenu: [
+  //     { label: "Register", href: "/matrimonial/register" },
+  //     { label: "Bride", href: "/matrimonial/bride" },
+  //     { label: "Groom", href: "/matrimonial/groom" },
+  //     { label: "Add New Profile", href: "/matrimonial/add" },
+  //   ],
+  // },
   {
     label: "Events",
     href: "/events",
@@ -137,7 +137,7 @@ export default function Header() {
             <button className="text-sm hover:text-orange-400 transition-colors">
               LOGIN
             </button>
-            <button className="bg-orange-500 hover:bg-orange-600 px-4 py-1 rounded text-sm transition-colors">
+            <button className="bg-yellow-500 hover:bg-orange-600 px-4 py-1 rounded text-sm transition-colors">
               BECOME A MEMBER
             </button>
           </div>
@@ -145,25 +145,7 @@ export default function Header() {
       </div>
 
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between py-4">
-          <div className="flex items-center">
-            <div className="flex items-center space-x-3">
-              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
-                <svg
-                  className="w-10 h-10 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
-                </svg>
-              </div>
-              <h1 className="text-3xl font-bold text-gray-800">
-                VANJARI WORLD
-              </h1>
-            </div>
-            <div className="ml-4 h-12 w-20 bg-orange-500 clip-flag"></div>
-          </div>
-
+        <div className="flex items-center justify-between">
           <button
             className="lg:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -171,7 +153,8 @@ export default function Header() {
             {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
-
+        1
+        <img src="/assets/logo.jpg" alt="test img" />
         <nav
           className={`${
             mobileMenuOpen ? "block" : "hidden"
@@ -185,7 +168,7 @@ export default function Header() {
                     href={item.href}
                     className={`flex items-center px-4 py-2 rounded transition-colors ${
                       index === 0
-                        ? "bg-orange-500 text-white hover:bg-orange-600"
+                        ? "bg-yellow-500 text-white hover:bg-orange-600"
                         : "text-gray-700 hover:bg-gray-100"
                     }`}
                     aria-haspopup={item.hasDropdown ? "true" : undefined}
